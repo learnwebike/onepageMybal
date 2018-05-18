@@ -4,7 +4,11 @@
     overflow:hidden;
 }
     
-.media-body {
-    width:10000px;
+.media {
+    margin-top:15px;
 }
 
+.media-right,.media>.pull-right {
+    padding-left:30 px;
+}
+.media-left,.media>.pull-left{padding-right:10px}.media-left,.media-right,.media-body{display:table-cell;vertical-align:top}
